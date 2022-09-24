@@ -1,0 +1,220 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.navigationbar {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+
+}
+
+.logo_utama {
+    margin-top: 11px;
+    margin-left: 125px;
+    padding: 10px;
+}
+
+.navigation_bar_option {
+    float: right;
+    margin-top: 52px;
+    margin-right: 187px;
+}
+
+.navigation_bar_option a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #19345E;
+    text-decoration: none;
+}
+
+#Home:hover,
+#About:hover,
+#Contact:hover,
+#Experience:hover {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #F47522;
+    text-decoration: none;
+    background-color: #19345E;
+}
+
+/* Kalo home dihover, yang lain jadi abu */
+
+#Home:hover~#About,
+#Home:hover~#Contact,
+#Home:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+
+#About:hover~#Home,
+#About:hover~#Contact,
+#About:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+
+#Contact:hover~#Home,
+#Contact:hover~#About,
+#Contact:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+
+#Experience:hover~#Home,
+#Experience:hover~#Contact,
+#Experience:hover~#About {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+
+#About {
+    color: #F47522;
+}
+
+.About_me {
+    background-color: #F4F7FC;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 10px;
+
+}
+
+.About_me_p {
+    margin-left: 125px;
+    font-size: 35px;
+    color: #19345E;
+
+}
+
+.description {
+    margin-top: 150px;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    margin-left: 125px;
+    color: #19345E;
+}
+
+.education {
+    margin-left: 125px;
+    color: #19345E;
+}
+
+.education_dots {
+    margin-left: 100px;
+    color: #19345E;
+}
+
+.table_desc {
+    color: #19345E;
+    margin-left: 125px;
+}
+
+.table,
+.table tr,
+.table td {
+    margin-left: 125px;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: #19345E;
+    color: #19345E;
+    padding: 10px;
+}
+
+.foto_cewek {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+    border-radius: 10px;
+}
+
+.foto_dot {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 900px;
+    top: 550px;
+}
+
+.bottom_navigation_bar {
+    background-color: #19345E;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    display: flex;
+
+}
+
+.logo_bawah {
+    width: 154;
+    height: 78;
+    padding: 20px;
+    margin-left: 125px;
+
+}
+
+.judul_tabel {
+    color: white;
+    margin-right: 500px;
+}
+
+/* .tabel_bawah {
+
+} */
+
+.tabel_bawah td,
+.tabel_bawah tr{
+    padding: 50px;
+}
+
+.sosmed {
+    margin-left: 400px;
+    margin-top: 40px;
+
+}
+
+/* .garis_abu {
+    background-color: #cccccc;
+    width: 2px;
+    height:70px;
+    border-radius: 5px;
+    float:left;
+    margin-right: 500px;
+    
+} */
+
+.copyright {
+    padding:10px;
+    margin-top: 40px;
+    
+    color: white;
+}

@@ -1,0 +1,158 @@
+body {
+    background-image: url("background_image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.navigationbar {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+
+}
+
+.logo_utama {
+    margin-top: 11px;
+    margin-left: 125px;
+    padding: 15px;
+}
+
+.navigation_bar_option {
+    float: right;
+    margin-top: 52px;
+    margin-right: 187px;
+}
+
+.navigation_bar_option a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #19345E;
+    text-decoration: none;
+}
+
+#Home:hover,
+#About:hover,
+#Contact:hover,
+#Experience:hover {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #F47522;
+    text-decoration: none;
+    background-color: ,;
+}
+
+/* Kalo home dihover, yang lain jadi abu */
+
+#Home:hover~#About,
+#Home:hover~#Contact,
+#Home:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+#About:hover~#Home,
+#About:hover~#Contact,
+#About:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+#Contact:hover~#Home,
+#Contact:hover~#About,
+#Contact:hover~#Experience {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+#Experience:hover~#Home,
+#Experience:hover~#Contact,
+#Experience:hover~#About {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: white;
+}
+#Home {
+    color: #F47522;
+}
+.isi {
+    position: absolute;
+    margin-left: 556px;
+    margin-top: 219px;
+    color: #19345E;
+   
+}
+
+.myname {
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.anne {
+    font-size: 100px;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.build {
+    font-size: 40px;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foto_cewek {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 173px;
+    border-radius: 50%;
+    width: 355px;
+    height: 355px;
+
+}
+
+.button_orange {
+    background: #F47522 0% 0% no-repeat padding-box;
+    border: 13px solid #F47522;
+    border-radius: 43px;
+    opacity: 1;
+    width: 150px;
+    length: 43px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+/* Ubah button jadi putih pas dihover */
+
+.button_orange:hover {
+    background: whitesmoke 0% 0% no-repeat padding-box;
+    border: 13px solid whitesmoke;
+    border-radius: 43px;
+    opacity: 1;
+    width: 150px;
+    length: 43px;
+    color: #F47522;
+    font-size: 15px;
+}

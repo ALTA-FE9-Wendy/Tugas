@@ -1,0 +1,37 @@
+body {background-color: blueviolet;}
+.h3test {
+    color:aqua;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    /* animation: zoom-in-zoom-out 2s ease-out infinite; */
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+   
+
+}
+/* @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(2, 2);
+    }
+  }
+   */
+/* .h3test {
+    transition: width 2s,height 2s ;
+} */
+/* .h3test:hover{
+    width: 200px;
+    height: 200px;
+} */
+
+.h3test2  {color:aqua}
+h1 {color:red
+    
+}
