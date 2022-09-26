@@ -4,7 +4,7 @@ function Problem_1r_1() {
     let all_num = []
     let isPrime = true
       
-        // if num % i = 0, false
+    // if num % i = 0, false
     // check is prime = false, true sampai num
     // if true = COUNTER ++ 
     // counter sampai num

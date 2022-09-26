@@ -3,22 +3,18 @@ function palindrome(input) {
   let length = input.length
   let half_length = Math.floor(length / 2)
   let i = 0
-  console.log(half_length+" half-length")
-  while ( i <= half_length) {
-
-    let length_i = length - i - 1
-    console.log(length_i+" length i")
-
-    if (input.charAt(i) == input.charAt(length_i)) {
+  console.log(half_length + " half-length")
+  while (i <= half_length) {
+    if (input.charAt(i) == input.charAt(length - i - 1)) {
       counter++;
       i++;
-      console.log(counter+" counter")
+      console.log(counter + " counter")
       if (counter == half_length) {
-          return true
+        return true
       }
-    }  else {
+    } else {
       return false
-  }
+    }
 
   }
 }
