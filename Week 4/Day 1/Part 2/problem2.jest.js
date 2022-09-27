@@ -1,15 +1,8 @@
-const prime = require("../js/jest");
+const Problem_2_2_1 = require("./problem2");
 
-describe("prime", () => {
-    it("comment", () => {
-        expect(prime(5)).toBe("prime");
-    });
-    it("comment2", () => {
-        expect(prime(8)).toBe("not prime");
-    });
-    it("comment3", () => {
-        expect(prime(0)).toBe(undefined);
-    });
-
+describe("", () => {
+    it("", () => {
+        expect(Problem_2_2_1(20)).toBe([1,2,4,5,10,20]);
+    })
 }
 )
