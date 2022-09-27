@@ -1,15 +1,17 @@
-function Problem_2_3() {
-    let input = 35
+function Problem_2_3(input) {
     for (let i = 2; i <= input; i++) {
       let faktor = input % i
       if (faktor == 0) {
         if (i < input) {
-          console.log("not prime")
+          return "false"
           break;
         } else {
-          console.log("prime")
+          return "true"
         }
       }
     }
   }
+  
+  
+module.exports = Problem_2_3;
   
