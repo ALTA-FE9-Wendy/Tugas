@@ -1,12 +1,12 @@
-console.log(getMinDeletions("abab"))
-
 function getMinDeletions(s) {
 
-    s = s.split(""); //bikin jadi array
+    s = s.split(""); 
 
-    let arrSet = new Set(s); // bikin set (remove semua duplikat)
-    var newArr = Array.from(arrSet) //jadikan arrya lagi
+    let arrSet = new Set(s); 
+    var newArr = Array.from(arrSet) 
 
-    let deletions = s.length - newArr.length //panjang original - panjang tanpa duplikat
+    let deletions = s.length - newArr.length 
     return deletions
 }
+
+console.log(getMinDeletions("aabccdd"))
