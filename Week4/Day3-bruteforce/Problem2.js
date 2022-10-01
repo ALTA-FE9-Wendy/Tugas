@@ -1,9 +1,16 @@
 function coinChange(amount) {
     const coins = {
-      twentyFiveCent: 25,
-      tenCent: 10,
-      fiveCent: 5,
-      oneCent: 1,
+      tenthousand: 10000,
+      fivethousand: 5000,
+      twothousand: 2000,
+      onethousand: 1000,
+      fivehundred: 500,
+      twohundred: 200,
+      onehundred : 100,
+      fifty: 50,
+      twenty: 20,
+      ten: 10,
+      one: 1,
     };
     let result = {};
     let moneyLeftover = amount;
@@ -26,4 +33,8 @@ function coinChange(amount) {
     return result;
   }
   
-  console.log(coinChange(26))
+  console.log(coinChange(123))   // [100 20 1 1 1]
+  console.log(coinChange(432))   // [200 200 20 10 1 1]
+  console.log(coinChange(543))   // [500, 20, 20, 1, 1, 1]
+  console.log(coinChange(7752))  // [5000, 2000, 500, 200, 50, 1, 1]
+  console.log(coinChange(15321)) // [10000 5000 200 100 20 1]

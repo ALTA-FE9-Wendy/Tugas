@@ -1,3 +1,4 @@
 function asterisk(n) {
-    let output =" "
+    let output =""
+    
 }

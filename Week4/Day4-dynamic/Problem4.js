@@ -1,37 +1,37 @@
-var coins = {
-    M: 1000,
-    CM: 900,
-    D: 500,
-    CD: 400,
-    C: 100,
-    XC: 90,
-    L: 50,
-    XL: 40,
-    X: 10,
-    IX: 9,
-    V: 5,
-    IV: 4,
-    I: 1
-}
+// var coins = {
+//     M: 1000,
+//     CM: 900,
+//     D: 500,
+//     CD: 400,
+//     C: 100,
+//     XC: 90,
+//     L: 50,
+//     XL: 40,
+//     X: 10,
+//     IX: 9,
+//     V: 5,
+//     IV: 4,
+//     I: 1
+// }
 
-var test = 1254
+// var test = 1254
 
-function roman(amount) {
-    let result = {};
-    let moneyLeftover = amount;
+// function roman(amount) {
+//     let result = {};
+//     let moneyLeftover = amount;
 
-    for (const key in coins) { //pake coinchange
-        while (moneyLeftover >= coins[key]) {
-            if (result[key]) {
-                result[key]++;
-            } else {
-                result[key] = 1;
-            }
-            moneyLeftover = (moneyLeftover - coins[key]).toFixed(2);
-        }
-    }
-    return result;
-}
+//     for (const key in coins) { //pake coinchange
+//         while (moneyLeftover >= coins[key]) {
+//             if (result[key]) {
+//                 result[key]++;
+//             } else {
+//                 result[key] = 1;
+//             }
+//             moneyLeftover = (moneyLeftover - coins[key]).toFixed(2);
+//         }
+//     }
+//     return result;
+// }
 
 function roman2(amount) {
     const coins = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
@@ -76,8 +76,12 @@ function roman2(amount) {
     return romantotal
 }
 
-console.log(roman(test)) // harusnya MCMXXX, tpi untuk sementara hasilnya objek :  { M: 1, CM: 1, X: 3 }
-console.log(roman2(test))
+// console.log(roman(test)) // harusnya MCMXXX, tpi untuk sementara hasilnya objek :  { M: 1, CM: 1, X: 3 }
+console.log(roman2(6))    // VI
+console.log(roman2(9))    // IX
+console.log(roman2(23))   // XXIII
+console.log(roman2(2021)) // MMXXI
+console.log(roman2(1646)) // MDCXLVI
 
     // var romantotal = ""
     // Object.keys(result).forEach(key => {

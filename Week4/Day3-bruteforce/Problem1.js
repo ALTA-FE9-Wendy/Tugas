@@ -15,4 +15,5 @@ function func(a, b, c) {
     return "no solution"
 }
 
-console.log(func(6, 6, 14))
+console.log(func(1, 2, 3))  // no solution
+console.log(func(6, 6, 14)) // 1 2 3

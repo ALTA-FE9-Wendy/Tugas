@@ -38,3 +38,10 @@ function jajanSeblak(uang) {
 }
 
 jajanBoba(20000, jajanSeblak);
+
+
+// //kamu jajan boba dengan harga Rp. 5000
+// sisa uang kamu Rp. 15000
+
+// kamu jajan seblak dengan harga Rp. 8000
+// sisa uang kamu sebesar Rp. 7000
